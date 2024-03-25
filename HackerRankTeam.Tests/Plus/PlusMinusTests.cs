@@ -25,8 +25,6 @@ namespace HackerRankTeam.UnitTest.Plus
             {
                 Assert.That(expectedOutput[i], Is.EqualTo(actualOutput[i]));
             }
-
         }
-
     }
 }
