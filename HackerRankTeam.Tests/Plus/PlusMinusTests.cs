@@ -1,5 +1,4 @@
 ﻿using HackerRankTeam.ArrayOfIntegers;
-using Microsoft.VisualStudio.TestPlatform.Utilities;
 
 namespace HackerRankTeam.UnitTest.Plus
 {
