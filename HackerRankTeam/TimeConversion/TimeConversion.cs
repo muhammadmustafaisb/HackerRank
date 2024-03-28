@@ -6,8 +6,11 @@ namespace HackerRankTeam.TimeConversion
     {
         public static string TimeConversions(string s)
         {
+            DateTime parsedTime = DateTime.Parse(s);
 
-            return s;
+            string militaryTime = parsedTime.ToString("HH:MM:SS");
+
+            return militaryTime;
         }
     }
 }
