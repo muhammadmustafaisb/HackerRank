@@ -1,0 +1,7 @@
+﻿
+namespace HackerRankTeam.MockTest
+{
+
+
+
+}

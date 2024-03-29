@@ -14,16 +14,14 @@ public class Program
         //List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
         //Mini_MaxSum.MiniMaxSum(arr);
 
+        //3rd Qeustion
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
-
         string s = Console.ReadLine();
-
         string result = TimeConversion.TimeConversions(s);
-
         textWriter.WriteLine(result);
-
         textWriter.Flush();
         textWriter.Close();
+
 
     }
 }
