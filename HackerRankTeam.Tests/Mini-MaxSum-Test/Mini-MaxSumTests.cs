@@ -1,6 +1,4 @@
 ﻿
-using HackerRankTeam.Mini_MaxSum;
-
 namespace HackerRankTeam.UnitTest.Mini_MaxSum_Test
 {
     [TestFixture]

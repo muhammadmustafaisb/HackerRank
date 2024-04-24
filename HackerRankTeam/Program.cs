@@ -1,4 +1,5 @@
 ﻿using HackerRankTeam.ArrayOfIntegers;
+using HackerRankTeam.Lonely_Integer;
 using HackerRankTeam.Mini_MaxSum;
 using HackerRankTeam.TimeConversion;
 
@@ -15,12 +16,12 @@ public class Program
         //Mini_MaxSum.MiniMaxSum(arr);
 
         //3rd Qeustion
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
-        string s = Console.ReadLine();
-        string result = TimeConversion.TimeConversions(s);
-        textWriter.WriteLine(result);
-        textWriter.Flush();
-        textWriter.Close();
+        //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //string s = Console.ReadLine();
+        //string result = TimeConversion.TimeConversions(s);
+        //textWriter.WriteLine(result);
+        //textWriter.Flush();
+        //textWriter.Close();
 
 
     }
